@@ -71,20 +71,11 @@ const Footer = () => {
                  Ocopass © {new Date().getFullYear()} All rights reserved
                  </WebisteRights>
                  <SocialIcons>
-                 <SocialIconLink herf="/" target="_blank" aria-label="Instagram"><FaInstagram /></SocialIconLink>
-                 <SocialIconLink herf="/" target="_blank" aria-label="Facebook"><FaFacebook /></SocialIconLink>
-                 <SocialIconLink
-              href={
-                '//www.youtube.com/'
-              }
-              rel='noopener noreferrer'
-              target='_blank'
-              aria-label='Youtube'
-            >
-              <FaYoutube />
-            </SocialIconLink>
-                  <SocialIconLink herf="/" target="_blank" aria-label="Twitter"><FaTwitter /></SocialIconLink>
-                  <SocialIconLink herf="/" target="_blank" aria-label="Tiktok"><FaTiktok /></SocialIconLink>
+                 <SocialIconLink href={'//www.instagram.com'}rel='noopener noreferrer'target='_blank'aria-label="Instagram"><FaInstagram/></SocialIconLink>  
+                 <SocialIconLink href={'//www.facebook.com'}rel='noopener noreferrer'target='_blank'aria-label="Facebook"><FaFacebook/></SocialIconLink>
+                 <SocialIconLink href={'//www.youtube.com'}rel='noopener noreferrer'target='_blank'aria-label="Youtube"><FaYoutube/></SocialIconLink>
+                 <SocialIconLink href={'//www.Twitter.com'}rel='noopener noreferrer'target='_blank'aria-label="Twitter"><FaTwitter/></SocialIconLink>
+                 <SocialIconLink href={'//www.tiktok.com'}rel='noopener noreferrer'target='_blank'aria-label="Tiktok"><FaTiktok /></SocialIconLink>
                  </SocialIcons>
                </SocialMediaWrap>
            </SocialMedia>
